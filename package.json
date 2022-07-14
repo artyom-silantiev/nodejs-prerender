@@ -1,0 +1,20 @@
+{
+  "name": "prerender-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prerender.js",
+  "type": "module",
+  "scripts": {
+    "start": "node prerender.js"
+  },
+  "private": true,
+  "author": "",
+  "dependencies": {
+    "cache-manager": "^3.6.1",
+    "cache-manager-fs": "^1.0.9",
+    "dayjs": "^1.11.1",
+    "dotenv": "^16.0.0",
+    "fs-extra": "^10.1.0",
+    "prerender": "^5.19.0"
+  }
+}
